@@ -26,5 +26,9 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[credential]
+  helper = osxkeychain
 [merge]
 	log = true
+[mergetool]
+  keepBackup = true
