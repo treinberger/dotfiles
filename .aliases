@@ -7,8 +7,6 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # web dev stuff
-# alias mampsql="/Applications/MAMP/Library/bin/mysql -uroot -p"
-# alias subl.="subl ."
 alias s="python -m SimpleHTTPServer"
 alias chrm="open /Applications/Google\ Chrome.app 'http://localhost:8000/'"
 
@@ -19,7 +17,6 @@ alias psqlon="pg_ctl -D /usr/local/var/postgres -l logfile start"
 alias psqloff="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias psqlprocess="ps auxwww | grep postgres"
 
-
 # be nice
 alias please=sudo
 
@@ -29,8 +26,3 @@ alias v="vim"
 
 # File size
 alias fs="stat -f \"%z bytes\""
-
-# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-# alias stfu="osascript -e 'set volume output muted true'"
-# alias pumpitup="osascript -e 'set volume 10'"
-# alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
