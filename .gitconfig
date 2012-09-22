@@ -2,6 +2,10 @@
 	ui = always
 [apply]
 	whitespace = fix
+[alias]
+  ca = commit -am	
+  cm = commit -m
+  st = status -s
 [credential]
   helper = osxkeychain
 [merge]
