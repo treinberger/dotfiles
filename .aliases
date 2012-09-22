@@ -6,6 +6,10 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# List dir contents aliases (http://ss64.com/osx/ls.html)
+alias ls="ls -G"
+alias la="ls -oa"
+
 # web dev stuff
 alias s="python -m SimpleHTTPServer"
 alias chrm="open /Applications/Google\ Chrome.app 'http://localhost:8000/'"
