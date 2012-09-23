@@ -26,7 +26,6 @@ alias please=sudo
 
 # Shortcuts
 alias g="git"
-alias v="vim"
 
 # File size
 alias fs="stat -f \"%z bytes\""
