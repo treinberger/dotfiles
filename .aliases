@@ -24,8 +24,10 @@ alias psqlprocess="ps auxwww | grep postgres"
 # be nice
 alias please=sudo
 
-# Shortcuts
+# Git Shortcuts
 alias g="git"
+alias st="git status -s"
+alias cm="git commit -m"
 
 # File size
 alias fs="stat -f \"%z bytes\""
