@@ -13,3 +13,7 @@ unset file
 # init rvm
 source ~/.rvm/scripts/rvm
 
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
