@@ -28,6 +28,7 @@ alias please=sudo
 alias g="git"
 alias st="git status -s"
 alias cm="git commit -m"
+# lp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(purple)%cn%Creset' --abbrev-commit --date=relative
 
 # File size
 alias fs="stat -f \"%z bytes\""
@@ -35,3 +36,6 @@ alias fs="stat -f \"%z bytes\""
 # internations
 alias in="cd ~/Sites/internations.org"
 alias sshin="ssh root@internations.local"
+
+# sublime here
+alias subl="~/bin/subl"
