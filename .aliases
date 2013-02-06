@@ -31,3 +31,7 @@ alias cm="git commit -m"
 
 # File size
 alias fs="stat -f \"%z bytes\""
+
+# internations
+alias in="cd ~/Sites/internations.org"
+alias sshin="ssh root@internations.local"
