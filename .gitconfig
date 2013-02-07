@@ -3,9 +3,15 @@
 [apply]
 	whitespace = fix
 [alias]
-  ca = commit -am	
+  add = add -a
+  ca = commit -am
   cm = commit -m
   st = status -s
+  dif = diff
+  difc = diff --color-words
+  lp  = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lpu = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(magenta)%cn%Creset' --abbrev-commit --date=relative
+  logg = log --grep
 [credential]
   helper = osxkeychain
 [merge]
