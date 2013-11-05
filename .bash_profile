@@ -1,5 +1,5 @@
+# default PATH
 export PATH="/usr/local/bin:$PATH"
-export PATH="./bin:$PATH"
 
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.extra can be used for settings you don’t want to commit
@@ -13,6 +13,9 @@ unset file
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# export PATH after initializing rbenv to prioritize project binstubs
+export PATH="./bin:$PATH"
 
 # bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
