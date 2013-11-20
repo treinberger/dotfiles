@@ -15,6 +15,7 @@ alias s="python -m SimpleHTTPServer"
 alias chrm="open /Applications/Google\ Chrome.app 'http://localhost:8000/'"
 alias be="bundle exec"
 alias redison="redis-server /usr/local/etc/redis.conf"
+alias redisoff="redis-cli -h 127.0.0.1 -p 6379 shutdown"
 
 # database shortcuts
 alias msqlon="mysql.server start"
