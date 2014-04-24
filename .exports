@@ -10,3 +10,7 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 # for sinatra
 export RACK_ENV="development"
+
+# for python
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
