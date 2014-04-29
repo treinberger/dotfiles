@@ -23,6 +23,8 @@ alias msqloff="mysql.server stop"
 alias psqlon="pg_ctl -D /usr/local/var/postgres -l logfile start"
 alias psqloff="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias psqlprocess="ps auxwww | grep postgres"
+alias mongostart="brew services start mongodb"
+alias mongostop="brew services stop mongodb"
 
 # be nice
 alias please=sudo
