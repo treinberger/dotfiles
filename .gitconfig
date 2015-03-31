@@ -9,7 +9,7 @@
   st = status -s
   dif = diff
   difc = diff --color-words
-  lp  = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lp  = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cd)%Creset' --abbrev-commit --date=rfc
   lpu = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(magenta)%cn%Creset' --abbrev-commit --date=relative
   lpn = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(magenta)%cn%Creset' --abbrev-commit --date=relative -n
   lpd = log --pretty=format:'%Cgreen%cd%Creset %Cred%h%Creset %C(yellow)%d%Creset %s' --abbrev-commit --date=short
