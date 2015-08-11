@@ -3,6 +3,7 @@
 [apply]
 	whitespace = fix
 [alias]
+  co = checkout
   add = add -a
   ca = commit -am
   cm = commit -m
