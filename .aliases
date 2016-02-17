@@ -17,6 +17,7 @@ alias be="bundle exec"
 alias a="antwort"
 alias redison="redis-server /usr/local/etc/redis.conf"
 alias redisoff="redis-cli -h 127.0.0.1 -p 6379 shutdown"
+alias subl="sublime"
 
 # database shortcuts
 alias msqlon="mysql.server start"
