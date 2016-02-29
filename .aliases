@@ -11,10 +11,10 @@ alias ls="ls -G"
 alias la="ls -oa"
 
 # web dev stuff
-alias s="python -m SimpleHTTPServer"
 alias chrm="open /Applications/Google\ Chrome.app 'http://localhost:8000/'"
 alias be="bundle exec"
 alias a="antwort"
+alias mm="middleman"
 alias redison="redis-server /usr/local/etc/redis.conf"
 alias redisoff="redis-cli -h 127.0.0.1 -p 6379 shutdown"
 alias subl="sublime"
