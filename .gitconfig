@@ -15,6 +15,7 @@
   lpn = log --pretty=format:'%Cred%h%Creset %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset - %C(magenta)%cn%Creset' --abbrev-commit --date=relative -n
   lpd = log --pretty=format:'%Cgreen%cd%Creset %Cred%h%Creset %C(yellow)%d%Creset %s' --abbrev-commit --date=short
   logg = log --grep
+  log-tree= log --graph --oneline --decorate --all
 [credential]
   helper = osxkeychain
 [merge]
